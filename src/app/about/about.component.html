@@ -1,0 +1,12 @@
+<div class="containerrr">
+    
+    <div class="form">
+      <label for="newName" style="width: 100px;">name:</label>
+      <input id="newName" name="username" required [(ngModel)]="username"><br>
+      
+      <label for="newEmail" style="width: 100px;">feedback:</label>
+      <input id="newFeedback" name="feedback" required [(ngModel)]="feedback"><br>
+      <button class="btn" (click)="submit(username,feedback)">Send</button>
+      
+    </div>
+  </div>

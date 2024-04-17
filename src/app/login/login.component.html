@@ -1,0 +1,18 @@
+<div class="containerrr">
+    
+    <div class="form">
+      <h1 style="text-align: center;">Please Login</h1>
+      <label for="newName" style="width: 100px;">Username:</label>
+      <input id="newName" name="username" required [(ngModel)]="username"><br>    
+      <label for="newEmail" style="width: 100px;">Password:</label>
+      <input id="newEmail" name="password" required [(ngModel)]="password"><br>
+      <button class="btn" (click)="Login(username, password)">Login</button>
+      
+    </div>
+   <h3 style="margin-top: 30px;"> Admin login details <br>
+  </h3>
+  <h5>Usernam:"<label style="color: red;">admin123</label>" <br>
+    Password:"<label style="color: red;">1234567</label>"
+  </h5>
+    
+  </div>
